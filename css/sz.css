@@ -1,0 +1,382 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+body{
+	 background: #F5F6FA;
+}
+/* 头部 */
+header{
+	width: 100%;
+	height: 0.9rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+body,html{
+	width: 100%;
+	height: 100%;
+}
+body{
+	overflow: scroll;
+	padding-top: 1rem;
+	box-sizing: border-box;
+}
+html{
+	overflow: hidden;
+    position: relative;
+}
+.box{
+	width: 100%;
+	overflow: hidden;
+	background: #0078E6;
+}
+.box img{
+	width: 100%;
+	display: block;
+}
+.box1{
+	width: 2.32rem;
+    height: 0.68rem;
+    margin: 0 auto;
+    padding-top: 0.15rem;
+}
+.box1 img{
+	width: 0.7rem;
+	height: 0.67rem;
+	float: left;
+}
+.box1 span{
+	font-size: 0.36rem;
+	font-weight: 700;
+	color: white;
+	float: left;
+	line-height: 0.57rem;
+    padding-left: 0.15rem;
+}
+.banner img{
+	width: 100%;
+	height: 100%;
+}
+/* 首页 */
+.sy a{
+	width: 100%;
+	height: 0.68rem;
+	font-size: 0.2rem;
+	font-weight: 600;
+	box-sizing: border-box;
+	padding-left: 0.1rem;
+	padding-left: 0.2rem;
+    line-height: 0.68rem;
+    display: block;
+    color: black;
+}
+.bian{
+	width: 95%;
+	height: 0.8rem;
+	border: 0.01rem solid #0078E6;
+	margin: 0 auto;
+    border-radius: 0.1rem;
+}
+.bianzuo{
+	width: 33.33%;
+    height: 100%;
+    background: #01B5FF;
+    box-sizing: border-box;
+    border-radius: 0.1rem;
+    float: left;
+    text-align: center;
+    line-height: 0.8rem;
+}
+.sanjiao{
+	width: 0rem;
+	border-top: 0.2rem solid  #01B5FF;
+	border-left: 0.1rem solid rgba(0, 0, 0, 0);
+	border-right: 0.1rem solid rgba(0, 0, 0, 0);
+	margin: 0rem auto;
+}
+.bianzuo p{
+	font-size: 0.22rem;
+	color: white;
+}
+.bianzuo1{
+	width: 33.33%;
+    height: 100%;
+    background: white;
+    box-sizing: border-box;
+    border-radius: 0.1rem;
+    float: left;
+    text-align: center;
+    line-height: 0.8rem;
+}
+.bianzuo1 p{
+	font-size: 0.22rem;
+}
+/* 师资 */
+.xy ul{
+	width: 95%;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.xy ul>li{
+	width: 100%;
+    height: 1.86rem;
+    background: white;
+    margin-top: 0.1rem;
+}
+.xy ul>li img{
+	width: 1.94rem;
+    height: 1.45rem;
+    float: left;
+    margin-left: 0.2rem;
+    margin-top: 0.2rem;
+    box-sizing: border-box;
+}
+.wenzi{
+	width: 65%;
+    height:1.2rem ;
+    float: right;
+    box-sizing: border-box;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+}
+.wenzi h2{
+	width: 1.5rem;
+    font-size: 0.25rem;
+    box-sizing: border-box;
+    border-bottom: 0.01rem dashed #ccc;
+}
+.wenzi h2 a{
+	font-size: 0.2rem;
+	color: #FFA637;
+    margin-right: -2.72rem;
+    float: right;
+    margin-top: 0.5rem;
+    display: block;
+    
+}
+.wenzi h3{
+	box-sizing: border-box;
+    padding-top: 0.1rem;
+    font-size: 0.25rem;
+    color: #01B5FF;
+}
+.wenzi h4{
+	box-sizing: border-box;
+    padding-top: 0.1rem;
+    font-size:0.2rem;
+    color: #666666;
+}
+/* 底部 */
+
+.fenye1{
+	width: 100%;
+	height: 0.60rem;
+	overflow: hidden;
+	margin-top: 0.2rem;
+	background: white;
+	display: flex;
+	align-items:center;
+}
+.fenye1 .left{
+	float: left;
+	width: 0.62rem;
+	height: 0.33rem;
+	margin-left: 0.36rem;
+	background: white;
+	box-sizing: border-box;
+	border:0.01rem solid #E2E2E2;
+	border-radius:0.2rem;
+	position: relative;
+}
+.fenye1 .left .left1{
+	width: 0.56rem;
+	height: 0.27rem;
+    box-sizing: border-box;
+	border:0.01rem solid #988B8B;
+	border-radius:0.2rem;
+	position: absolute;
+	left: 0.02rem;
+	top:0.02rem;
+	text-align: center;
+	line-height: 0.20rem;
+}
+.fenye1 .left .left1 span{
+	font-size: 0.4rem;
+	color: #988B8B;
+	 display: block;
+    padding-top: 0.03rem;
+	
+}
+.fenye1 .yuan{
+	float: left;
+	width: 0.33rem;
+	height: 0.33rem;
+	margin-left: 0.12rem;
+	background: white;
+	box-sizing: border-box;
+	border:0.01rem solid #E2E2E2;
+	border-radius:50%;
+	position: relative;
+	
+}
+.fenye1 .yuan .yuan1{
+	width: 0.27rem;
+	height: 0.27rem;
+    box-sizing: border-box;
+	border:0.01rem solid #988B8B;
+	border-radius:0.2rem;
+	position: absolute;
+	left: 0.02rem;
+	top:0.02rem;
+	line-height: 0.27rem;
+}
+.fenye1 .yuan .yuan1 span{
+	font-size: 0.15rem;
+	color: #988B8B;
+	margin-left: 0.08rem;
+	display: block;
+}
+.fenye1 .yuan .sanshi span{
+	margin-left: 0.05rem;
+}
+.fenye1 .yuan4{
+	float: left;
+	width: 0.33rem;
+	height: 0.33rem;
+	margin-left: 0.12rem;
+	background: #00B4FF;
+	box-sizing: border-box;
+	box-shadow: 0rem 0.02rem 0.08rem #00B4FF;
+	border:0.01rem solid #E2E2E2;
+	border-radius:50%;
+	position: relative;
+
+	
+}
+.fenye1 .yuan4 .yuan44{
+	width: 0.27rem;
+	height: 0.27rem;
+    box-sizing: border-box;
+	border:0.01rem solid white;
+	border-radius:0.2rem;
+	position: absolute;
+	left: 0.02rem;
+	top:0.02rem;
+	line-height: 0.27rem;
+}
+.fenye1 .yuan4 .yuan44 span{
+	font-size: 0.15rem;
+	color: white;
+	margin-left: 0.08rem;
+	display: block;
+}
+.fenye1 .xian{
+	width: 0.3rem;
+	height: 0.2rem;
+	float: left;
+	margin-left: 0.12rem;
+	text-align: center;
+	line-height: 0.25rem;
+}
+.fenye1 .xian span{
+	font-size: 0.2rem;
+	color: #988B8B;
+}
+
+.fenye1 .leftt{
+	float: left;
+	width: 0.62rem;
+	height: 0.33rem;
+	margin-left: 0.12rem;
+	background: white;
+	box-sizing: border-box;
+	border:0.01rem solid #E2E2E2;
+	border-radius:0.2rem;
+	position: relative;
+}
+.fenye1 .leftt .left1{
+	width: 0.56rem;
+	height: 0.27rem;
+    box-sizing: border-box;
+	border:0.01rem solid #988B8B;
+	border-radius:0.2rem;
+	position: absolute;
+	left: 0.02rem;
+	top:0.02rem;
+	line-height: 0.20rem;
+	text-align: center;
+}
+.fenye1 .leftt .left1 span{
+	font-size: 0.4rem;
+	color: #988B8B;
+	display: block;
+	padding-top: 0.03rem;
+}
+.fenye1 .zi{
+	width: 0.48rem;
+	height: 0.33rem;
+	float: left;
+	margin-left: 0.55rem;
+	text-align: center;
+	line-height: 0.33rem;
+}
+.fenye1 .zi span{
+	font-size: 0.15rem;
+	color: #988B8B;
+	display: block;
+}
+.fenye1 .leftf{
+	float: left;
+	width: 0.62rem;
+	height: 0.33rem;
+	margin-left: 0.07rem;
+	background: #FAFAFA;
+	box-sizing: border-box;
+	border:0.01rem solid #E2E2E2;
+	border-radius:0.2rem;
+	position: relative;
+}
+.fenye1 .leftf .left1{
+	width: 0.56rem;
+	height: 0.27rem;
+    box-sizing: border-box;
+	border:0.01rem solid #E2E2E2;
+	border-radius:0.2rem;
+	position: absolute;
+	left: 0.02rem;
+	top:0.02rem;
+}
+.fenye1 .zi1{
+	width: 0.2rem;
+	height: 0.33rem;
+	float: left;
+	margin-left: 0.08rem;
+	text-align: center;
+	line-height: 0.33rem;
+}
+.fenye1 .zi1 span{
+	font-size: 0.15rem;
+	color: #988B8B;
+	display: block;
+}
+.fenye1 .yuan .sanshi1 span{
+	font-size: 0.12rem;
+	margin-left: 0.04rem;
+	padding-left: 0.03rem
+}
+
+
+.wenzi1{
+	width: 100%;
+	margin: 0.2rem auto;
+	text-align: center;
+}
+.wenzi1 p{
+	font-size: 0.2rem;
+	color: #8F8F91;
+}

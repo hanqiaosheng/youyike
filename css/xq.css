@@ -1,0 +1,205 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+body{
+	 background: #F5F6FA;
+}
+/* 头部 */
+header{
+	width: 100%;
+	height: 0.9rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+body,html{
+	width: 100%;
+	height: 100%;
+}
+body{
+	overflow: scroll;
+	padding-top: 1rem;
+	box-sizing: border-box;
+}
+html{
+	overflow: hidden;
+    position: relative;
+}
+.box{
+	width: 100%;
+	overflow: hidden;
+	background: #0078E6;
+}
+.box img{
+	width: 100%;
+	display: block;
+}
+.box1{
+	width: 2.32rem;
+    height: 0.68rem;
+    margin: 0 auto;
+    padding-top: 0.15rem;
+}
+.box1 img{
+	width: 0.7rem;
+	height: 0.67rem;
+	float: left;
+}
+.box1 span{
+	font-size: 0.36rem;
+	font-weight: 700;
+	color: white;
+	float: left;
+	line-height: 0.57rem;
+    padding-left: 0.15rem;
+}
+.banner img{
+	width: 100%;
+	height: 100%;
+}
+/* 首页 */
+.sy a{
+	width: 100%;
+	height: 0.68rem;
+	font-size: 0.2rem;
+	font-weight: 600;
+	box-sizing: border-box;
+	padding-left: 0.1rem;
+	padding-left: 0.2rem;
+    line-height: 0.68rem;
+    display: block;
+    color: black;
+}
+.gai{
+	width: 95%;
+	height: auto;
+	overflow: hidden;
+	margin:0 auto;
+	background: white;
+}
+.gai1{
+	margin:0 auto;
+	width: 95%;
+	height: 0.67rem;
+	overflow: hidden;
+	box-sizing: border-box;
+	border-bottom: 0.01rem dashed #ccc;
+}
+.gang{
+   width:0.5%;
+	height: 0.2rem;
+	background: blue;
+	float: left;
+	margin-top: 0.25rem;
+}
+.gai1 span{
+	display: block;
+	margin-top: 0.22rem;
+	margin-left:0.1rem;
+	font-size: 0.22rem;
+}
+.xy ul{
+	width: 95%;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.xy ul>li{
+	width: 100%;
+    height: 1.86rem;
+    background: white;
+    margin-top: 0.1rem;
+}
+.xy ul>li img{
+	width: 2.7rem;
+    height: 2.7rem;
+    float: left;
+    margin-left: 0.2rem;
+    margin-top: 0.2rem;
+    box-sizing: border-box;
+}
+.wenzi{
+	width: 65%;
+    height:1.2rem ;
+    float: right;
+    box-sizing: border-box;
+    padding-top: 0.7rem;
+    margin-right: -1.21rem
+}
+.wenzi h2{
+    font-size: 0.25rem;
+    box-sizing: border-box;
+    border-bottom: 0.01rem dashed #ccc;
+}
+.wenzi h2 span{
+	font-size: 0.2rem;
+	color: #03B5FF;
+}
+.wenzi h3{
+	box-sizing: border-box;
+    padding-top: 0.1rem;
+    font-size: 0.25rem;
+    color: #01B5FF;
+}
+.wenzi h4{
+	box-sizing: border-box;
+    padding-top: 0.1rem;
+    font-size:0.24rem;
+}
+.wenzi h5{
+	box-sizing: border-box;
+    padding-top: 0.1rem;
+    font-size:0.24rem;
+}
+.jianjie{
+	width: 95%;
+	height: auto;
+	overflow: hidden;
+	margin:0 auto;
+	background: white;
+	margin-top: 0.15rem;
+}
+.jian{
+	margin:0 auto;
+	width: 95%;
+	height: 0.67rem;
+	overflow: hidden;
+	box-sizing: border-box;
+	border-bottom: 0.01rem dashed #ccc;
+}
+.gang1{
+   width:0.5%;
+	height: 0.2rem;
+	background: blue;
+	float: left;
+	margin-top: 0.25rem;
+}
+.jian span{
+	display: block;
+	margin-top: 0.22rem;
+	margin-left:0.1rem;
+	font-size: 0.22rem;
+}
+.jianjie .zi4 p{
+	box-sizing: border-box;
+	padding-left: 0.2rem;
+	padding-right: 0.2rem;
+	padding-top: 0.3rem;
+	font-size: 0.2rem;
+	color: #737373;
+	padding-bottom: 0.2rem;
+}
+/* 底部 */
+.wenzi1{
+	width: 100%;
+	margin: 0.2rem auto;
+	text-align: center;
+}
+.wenzi1 p{
+	font-size: 0.2rem;
+	color: #8F8F91;
+}
